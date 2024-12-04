@@ -1,0 +1,26 @@
+.rotating-image {
+ 
+    height: auto; /* Maintain aspect ratio */
+    animation: rotate 50s linear infinite; /* Apply the animation */
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .rotating-image {
+      width: 80%; /* Adjust the width for medium-sized screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .rotating-image {
+      width: 100%; /* Full width for small screens */
+    }
+  }
