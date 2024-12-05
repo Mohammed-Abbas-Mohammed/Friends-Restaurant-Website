@@ -6,8 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
- 
+
+
+<link rel="stylesheet" href="assets/css/foodhut.css">
  <link href="/Styles.css" rel="stylesheet">
+  <!-- font icons -->
+  <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+  <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+  <link rel="icon" type="image/x-icon" href="Images/Logo.jpg">
+  <link rel="stylesheet" href="animate.min.css">
+  <!-- Bootstrap + FoodHut main styles -->
+
 <style>
 body, html {height: 100%}
 body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
@@ -26,7 +36,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 <div class="w3-top w3-hide-small">
   <div style="float: right;" >
   <div class="w3-bar w3-xlarge w3-red" id="myNavbar" >
-    <a href="#myMap" class="w3-bar-item w3-button">تواصل معنا</a>
+    <a href="#Reviews" class="w3-bar-item w3-button"> التقييمات</a>
+    <a href="#gallary" class="w3-bar-item w3-button"> المعرض</a>
     <a href="#about" class="w3-bar-item w3-button">عن المطعم</a>
     <a href="#menu" class="w3-bar-item w3-button">المنيو</a>
     <a href="#" class="w3-bar-item w3-button">الرئيسية</a>
@@ -111,6 +122,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
       <hr>
 
       <h1><span class="w3- w3-tag w3-red w3-round">بوكسات</span></h1>
+      <hr>
 
       
       <h1><b>بوكس وتش</b> <span class="w3-left w3-tag w3-dark-grey w3-round">250</span></h1>
@@ -126,6 +138,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
       <hr>
    
     </div>
+
 
     <div id="Pasta" class="w3-container menu w3-padding-32 w3-white" style="direction: rtl;">
       <h1><b>وجبة سنجل</b> <span class="w3-left w3-tag w3-dark-grey w3-round">100</span></h1>
@@ -149,75 +162,314 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
       <hr>
 
       <h1><b>وجبة فريندز </b> <span class="w3-left w3-tag w3-dark-grey w3-round">900</span></h1>
-      <p class="w3-text-grey">   نص كيلو كفتة + نص كيلو شيش طاووق + 10 قطع سجق + 1/4 طرب + 1/2 كبدة + 2 رغيف حوواشي لحمة + أرز +  طحينة +  سلطة +  طيحنة + بطاطس + مخلل </p>
+      <p class="w3-text-grey">   نص كيلو كفتة + نص كيلو شيش طاووق + 10 قطع سجق + 1/4 طرب + 1/2 كبدة + 2 رغيف حوواشي لحمة + أرز +  سلطة +  طيحنة + بطاطس + مخلل </p>
       <hr>
 
       <h1><span class="w3- w3-tag w3-red w3-round">بالكيلو</span></h1>
-      <h1> 
-        <span class="w3-left w3-tag w3-dark-grey w3-round m-4">ربع</span>
-        <span class="w3-left w3-tag w3-dark-grey w3-round m-4">نص</span>
-        <span class="w3-left w3-tag w3-dark-grey w3-round m-4">ربع</span>
-      </h1>
-    </div><br>
+      <hr>
+      <h1><b> كفتة </b> </h1>
+      <p class="w3-text-grey">  ربع  <span class="w3-left w3-tag w3-dark-grey w3-round">140</span></p>
+      <p class="w3-text-grey">  نص  <span class="w3-left w3-tag w3-dark-grey w3-round">250</span></p>
+      <p class="w3-text-grey">  كيلو  <span class="w3-left w3-tag w3-dark-grey w3-round">470</span></p>
+      <hr>
+
+      <h1><b> سجق </b> </h1>
+      <p class="w3-text-grey">  ربع  <span class="w3-left w3-tag w3-dark-grey w3-round">125</span></p>
+      <p class="w3-text-grey">  نص  <span class="w3-left w3-tag w3-dark-grey w3-round">230</span></p>
+      <p class="w3-text-grey">  كيلو  <span class="w3-left w3-tag w3-dark-grey w3-round">410</span></p>
+      <hr>
+
+      <h1><b> شيش طاووق </b> </h1>
+      <p class="w3-text-grey">  ربع  <span class="w3-left w3-tag w3-dark-grey w3-round">135</span></p>
+      <p class="w3-text-grey">  نص  <span class="w3-left w3-tag w3-dark-grey w3-round">290</span></p>
+      <p class="w3-text-grey">  كيلو  <span class="w3-left w3-tag w3-dark-grey w3-round">435</span></p>
+      <hr>
+
+      <h1><b> كبدة </b> </h1>
+      <p class="w3-text-grey">  ربع  <span class="w3-left w3-tag w3-dark-grey w3-round">115</span></p>
+      <p class="w3-text-grey">  نص  <span class="w3-left w3-tag w3-dark-grey w3-round">200</span></p>
+      <p class="w3-text-grey">  كيلو  <span class="w3-left w3-tag w3-dark-grey w3-round">355</span></p>
+      <hr>
+
+      <h1><b> طرب </b> </h1>
+      <p class="w3-text-grey">  ربع  <span class="w3-left w3-tag w3-dark-grey w3-round">155</span></p>
+      <p class="w3-text-grey">  نص  <span class="w3-left w3-tag w3-dark-grey w3-round">290</span></p>
+      <p class="w3-text-grey">  كيلو  <span class="w3-left w3-tag w3-dark-grey w3-round">550</span></p>
+      <hr>
+
+      <h1><b> فراخ شيش </b> </h1>
+      <p class="w3-text-grey">  ربع  <span class="w3-left w3-tag w3-dark-grey w3-round">90</span></p>
+      <p class="w3-text-grey">  نص  <span class="w3-left w3-tag w3-dark-grey w3-round">160</span></p>
+      <p class="w3-text-grey">  كيلو  <span class="w3-left w3-tag w3-dark-grey w3-round">290</span></p>
+      <hr>
+
+      <h1><b>جميع الوجبات تشمل </b> </h1>
+      <p class="w3-text-grey">   أرز +  سلطة +  طيحنة + عيش + صوص فريندز + مخلل</p>
+      <hr>
+    </div>
 
 
     <div id="Starter" class="w3-container menu w3-padding-32 w3-white" style="direction: rtl;">
-      
+      <h1><b>حواوشي لحمة</b> <span class="w3-left w3-tag w3-dark-grey w3-round">45</span></h1>
+      <hr>
+
+      <h1><b>حواوشي فراخ</b> <span class="w3-left w3-tag w3-dark-grey w3-round">50</span></h1>
+      <hr>
+
+      <h1><b>حواوشي مخصوص</b> <span class="w3-left w3-tag w3-dark-grey w3-round">45</span></h1>
+      <hr>
+
+      <h1><b>حواوشي فريندز </b> <span class="w3-left w3-tag w3-dark-grey w3-round">50</span></h1>
+      <hr>
+
+      <h1><b>حواوشي ميكس</b> <span class="w3-left w3-tag w3-dark-grey w3-round">55</span></h1>
+      <hr>
+
+      <h1><b>حواوشي موتزريلا</b> <span class="w3-left w3-tag w3-dark-grey w3-round">50</span></h1>
+      <hr>
+
+      <h1><b>حواوشي أورما فراخ</b> <span class="w3-left w3-tag w3-dark-grey w3-round">45</span></h1>
+      <hr>
+
+      <h1><b>حواوشي أورما لحمة</b> <span class="w3-left w3-tag w3-dark-grey w3-round">65</span></h1>
+      <hr>
+
+      <h1><b>حواوشي اورما ميكس</b> <span class="w3-left w3-tag w3-dark-grey w3-round">60</span></h1>
+      <hr>
+
+      <h1><b>حواوشي كيري</b> <span class="w3-left w3-tag w3-dark-grey w3-round">75</span></h1>
+      <hr>
+
+      <h1><b>حواوشي ليه</b> <span class="w3-left w3-tag w3-dark-grey w3-round">60</span></h1>
+      <hr>
+
+      <h1><b>حواوشي سجق </b> <span class="w3-left w3-tag w3-dark-grey w3-round">50</span></h1>
+      <hr>
+
+      <h1><b> حواوشي وش بيتزا لحمة</b> <span class="w3-left w3-tag w3-dark-grey w3-round">90</span></h1>
+      <hr>
+
+      <h1><b> حواوشي وش بيتزا فراخ</b> <span class="w3-left w3-tag w3-dark-grey w3-round">100</span></h1>
+      <hr>
+
+      <h1><b> حواوشي وش بيتزا سجق</b> <span class="w3-left w3-tag w3-dark-grey w3-round">90</span></h1>
+      <hr>
+
+      <h1><b> حواوشي وش بيتزا ميكس</b> <span class="w3-left w3-tag w3-dark-grey w3-round">95</span></h1>
+      <hr>
+
+      <h1><b> حواوشي وش بيتزا جمبري كرسبي</b> <span class="w3-left w3-tag w3-dark-grey w3-round">110</span></h1>
+      <hr>
       
     </div><br>
 
   </div>
 </div>
+
+    <!--  gallary Section  -->
+<div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
+  <h2 class="section-title"> معرض الصور</h2>
+</div>
+<div class="gallary row">
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="/Images/Logo.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="Images/1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="Images/2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="/Images/9.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="Images/4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="Images/5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="Images/6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="Images/7.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="Images/8.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="Images/3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="Images/10.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+  <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+      <img src="Images/11.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+      <a href="#" class="gallary-overlay">
+          <i class="gallary-icon ti-plus"></i>
+      </a>
+  </div>
+</div>
+
 
 <!-- About Container -->
 <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
   <div class="w3-content">
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
-    <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p><strong>The Chef?</strong> Mr. Italiano himself<img src="/w3images/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
-    <p>We are proud of our interiors.</p>
-    <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
-    <h1><b>Opening Hours</b></h1>
-    
-    <div class="w3-row">
+    <h1 class="w3-center w3-jumbo animated fadeInUp" style="margin-bottom:64px">عن المطعم</h1>
+    <p style="direction: rtl;"><strong>فريندز</strong><img src="Images/Logo.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+    <p style="direction: rtl;">مطعم متخصص في المشويات على الفحم (حواوشي- سندويتشات-وجبات)</p>
+    <br>
+    <br>
+    <br>
+    <h1 style="direction: rtl;"><b>الأفرع </b></h1>
+    <br>
+    <div class="w3-row animated fadeInUp" style="direction: rtl;">
       <div class="w3-col s6">
-        <p>Mon & Tue CLOSED</p>
-        <p>Wednesday 10.00 - 24.00</p>
-        <p>Thursday 10:00 - 24:00</p>
+        <p> شارع عمر أفندي - أمام هايبر زادك</p>
+        <p>01121272703 - 0932724250</p>
+        <br>
+        <br>
+        <p>  أزاليا هاب - مدينة سوهاج الجديدة</p>
+        <p> 01501036805</p>
       </div>
-      <div class="w3-col s6">
-        <p>Friday 10:00 - 12:00</p>
-        <p>Saturday 10:00 - 23:00</p>
-        <p>Sunday Closed</p>
+      <div class="w3-col s6" >
+        <p>الفرع الأول</p>
+        <br>
+        <br>
+        <br>
+        <p>الفرع الثاني</p>
       </div>
     </div>
-    
+    <br>
+    <br>
+    <br>
+    <h1 style="direction: rtl;"><b>مواعيد العمل </b></h1>
+    <div class="w3-row animated fadeInUp " style="direction: rtl;">
+      <div class="w3-col s6"  >
+        <p>من السبت للخميس : من 3 عصرا حتى 3 صباحا</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <h1 style="direction: rtl;"><b> للتواصل </b></h1>
+    <div class="icon-container animated fadeInUp">
+      <a href="https://wa.me/+201030061028" target="_blank" class="icon-link">
+          <img src="Images/whatsapp.png" alt="WhatsUp" class="icon">
+      </a>
+
+      <a href="https://www.facebook.com/messages/t/196598676869015" target="_blank" class="icon-link">
+        <img src="Images/massenger.png" alt="Massenger" class="icon">
+     </a>
+
+     <a href="https://www.facebook.com/friendsrestaurant100" target="_blank" class="icon-link">
+      <img src="Images/facebook-logo.png" alt="facebook" class="icon">
+     </a>
+    </div>
+    <br>
+    <h2 style="direction: rtl;">ديكور مريح</h2>
+    <img src="Images/place.PNG" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
   </div>
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+<img src="Images/map.PNG" class="w3-image" style="width:100%;" id="myMap">
 
 <!-- Contact -->
-<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
-  <div class="w3-content">
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
-    <p>Find us at some address at some place or call us at 05050515-122330</p>
-    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-    <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
-    </form>
-  </div>
+<div class="w3-container  w3-blue-grey w3-xlarge" id="Reviews">
+<br>
+<br>
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">تقييمات</h1>
+    <div class="gallary row">
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+          <img src="/Images/r1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+          <a href="#" class="gallary-overlay">
+              <i class="gallary-icon ti-plus"></i>
+          </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+          <img src="Images/r2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+          <a href="#" class="gallary-overlay">
+              <i class="gallary-icon ti-plus"></i>
+          </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+          <img src="Images/r3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+          <a href="#" class="gallary-overlay">
+              <i class="gallary-icon ti-plus"></i>
+          </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+          <img src="/Images/r4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+          <a href="#" class="gallary-overlay">
+              <i class="gallary-icon ti-plus"></i>
+          </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+          <img src="Images/r5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+          <a href="#" class="gallary-overlay">
+              <i class="gallary-icon ti-plus"></i>
+          </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+          <img src="Images/r6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+          <a href="#" class="gallary-overlay">
+              <i class="gallary-icon ti-plus"></i>
+          </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+          <img src="Images/r7.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+          <a href="#" class="gallary-overlay">
+              <i class="gallary-icon ti-plus"></i>
+          </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+          <img src="Images/r8.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+          <a href="#" class="gallary-overlay">
+              <i class="gallary-icon ti-plus"></i>
+          </a>
+      </div>
+
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+<footer class="w3-center w3-black w3-padding-40 w3-xxlarge">
+  <p>Made by <a href="https://mohammed-abbas-mohammed.github.io/Portfolio/" title="W3.CSS" target="_blank" class="w3-hover-text-green">Mohammed.Abbas</a></p>
 </footer>
 
 <script>
@@ -240,3 +492,6 @@ document.getElementById("myLink").click();
 
 </body>
 </html>
+
+
+<!-- -->

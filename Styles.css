@@ -3,6 +3,58 @@
     height: auto; /* Maintain aspect ratio */
     animation: rotate 50s linear infinite; /* Apply the animation */
   }
+
+  .icon-container {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    gap: 20px; /* Space between icons */
+    margin: 20px;
+
+}
+
+.icon-link {
+    display: inline-block;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.icon {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 10px; /* Rounded corners for the icon */
+    transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Slightly increase the size on hover */
+    opacity: 1; /* Slightly reduce opacity on hover */
+    box-shadow: 0 10px 20px hsla(35, 100%, 68%, 1); /* Larger shadow with more blur and spread */
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 1.5s; /* Animation duration */
+  animation-timing-function: ease-in-out; /* Smooth easing function */
+  animation-delay: 0.5s; /* Delay before starting the animation */
+  animation-fill-mode: both; /* Ensures the animation properties persist after it ends */
+}
+
+/* Define the fadeInUp keyframe animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional: If you want even softer effect or a longer delay */
+.delaySoft {
+  animation-duration: 2s; /* Longer duration for softer effect */
+  animation-delay: 1s; /* Longer delay before the animation starts */
+}
   
   @keyframes rotate {
     from {
